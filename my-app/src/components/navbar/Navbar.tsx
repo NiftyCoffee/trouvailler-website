@@ -25,16 +25,16 @@ export default function Navbar() {
         <nav id="navbar" className={isSticky ? "sticky" : ""}>
             <ul className="ul-nav">
                 <li>
-                    <a>Sign Up</a>
+                    <a href="#section-landing">Sign Up</a>
                 </li>
                 <li>
-                    <a>What We Do</a>
+                    <a href="#section-whatwedo">What We Do</a>
                 </li>
                 <li>
-                    <a>About The Team</a>
+                    <a href="#section-abouttheteam">About The Team</a>
                 </li>
                 <li>
-                    <a>Contact Us</a>
+                    <a href="#section-contactus">Contact Us</a>
                 </li>
             </ul>
         </nav>

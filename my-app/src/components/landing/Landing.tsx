@@ -17,7 +17,7 @@ export default function Landing() {
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLScC5RhSlrePVpm8-KO24cuX0xymiplPNv2CVn2cz0at1oWviw/viewform?usp=sf_link" target="_blank">Sign Up</a>
                     </button>
                     <button className="btn btn-landing-findoutmore">
-                        <a>Find Out More</a>
+                        <a href="#section-contactus">Find Out More</a>
                     </button>
                 </div>
                 </article>

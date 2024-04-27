@@ -16,6 +16,7 @@
     font-family: 'Shrikhand';
     font-size: 2.5rem;
     margin: 1rem 0;
+    color: #25284a;
 }
 
 .p-abouttheteam {
@@ -45,4 +46,5 @@
 .li-abouttheteam h3 {
     font-weight: 700;
     font-size: 1.3rem;
+    color: #25284a;
 }
