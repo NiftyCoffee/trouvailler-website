@@ -9,9 +9,9 @@ export default function WhatWeDo() {
         <section id="section-whatwedo">
             <div className="div-whatwedo-container">
                 <div className="div-whatwedo-text">
-                    <h2 className="h2-whatwedo">No two trips are the same — You're unique.<br/><span className="span-whatwedo-tagline">Your trips should be too.</span></h2>
-                    <p className="p-whatwedo-subtitle">Going on a trip somewhere? Sign up for Trouvailler and we'll get you connected online to someone with local knowledge of your desired holiday destination.
-                        It's quick and easy; you can get the trip worth every dime in no time.
+                    <h2 className="h2-whatwedo">No two trips are the same — You&apos;re unique.<br/><span className="span-whatwedo-tagline">Your trips should be too.</span></h2>
+                    <p className="p-whatwedo-subtitle">Going on a trip somewhere? Sign up for Trouvailler and we&apos;ll get you connected online to someone with local knowledge of your desired holiday destination.
+                        It&apos;s quick and easy; you can get the trip worth every dime in no time.
                     </p>
                 </div>
                 <ul className="ul-whatwedo">
@@ -22,7 +22,7 @@ export default function WhatWeDo() {
                             className="icon-whatwedo"
                         />
                         <h3>Personalised Itinerary</h3>
-                        <p>Get an itinerary made just for you and change it however you like, however much you want. It's your trip!</p>
+                        <p>Get an itinerary made just for you and change it however you like, however much you want. It&apos;s your trip!</p>
                     </li>
                     <li className="li-whatwedo">
                         <Image 
