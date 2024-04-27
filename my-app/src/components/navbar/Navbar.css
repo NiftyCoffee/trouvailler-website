@@ -1,0 +1,40 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    transition: 0.2s ease-in-out;
+}
+
+.ul-nav {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    width:fit-content;
+    border-radius: 5rem;
+    padding: 0rem 1rem;
+    box-shadow: 0rem 0rem 1rem 0rem #b0b0b0;
+    color: #2f2f2f;
+}
+
+.ul-nav li {
+    padding: .7rem 0;
+}
+
+.ul-nav li a {
+    margin: 0 1rem;
+    padding: .5rem 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.ul-nav li a:hover {
+    background: #f0f0f0;
+    height: 100%;
+    border-radius: 1.2rem;
+    cursor: pointer;
+}
+
+.sticky {
+    position: fixed;
+    top: 1rem;
+}

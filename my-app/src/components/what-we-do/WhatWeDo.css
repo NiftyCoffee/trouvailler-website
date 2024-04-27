@@ -1,0 +1,57 @@
+#section-whatwedo {
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.div-whatwedo-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-whatwedo-text {
+    width: 70%;
+    margin: 2rem 0;
+}
+
+.h2-whatwedo {
+    font-family: 'Shrikhand';
+    font-size: 2rem;
+    color: #25284a;
+}
+
+.span-whatwedo-tagline {
+    color: #dd6e1d;
+}
+
+.p-whatwedo-subtitle {
+    margin: 1rem 0;
+}
+
+.ul-whatwedo {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-whatwedo {
+    width: 6rem;
+    height: 6rem;
+}
+
+.li-whatwedo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+}
+
+.li-whatwedo h3 {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: #629861;
+}
