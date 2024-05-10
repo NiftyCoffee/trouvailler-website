@@ -1,6 +1,9 @@
 "use client"
 
 import { act, useEffect, useState } from 'react';
+import Image from 'next/image';
+import menuIcon from '../../../public/assets/icons/menu.svg';
+import crossIcon from '../../../public/assets/icons/cross.svg';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -22,6 +25,7 @@ export default function Navbar() {
     // }, []);
 
    const [activeLink, setActiveLink] = useState('');
+   const [toggleMenu, setToggleMenu] = useState(false);
 
    useEffect(() => {
     const handleScroll = () => {
@@ -43,6 +47,17 @@ export default function Navbar() {
 
   }, []);
 
+  function handleMenuClick() {
+    const navList = document.getElementsByClassName('ul-nav')[0]
+    if (toggleMenu) {
+        setToggleMenu(false);
+        navList.classList.remove('hidden');
+    } else {
+        setToggleMenu(true);
+        navList.classList.add('hidden');
+    }
+  }
+
     // const currentUrl = window.location.href;
     // const navLinks = document.querySelectorAll('.nav-link');
 
@@ -56,6 +71,12 @@ export default function Navbar() {
         // <nav id="navbar" className={isSticky ? "sticky" : ""}>
         <nav id="navbar">
             <h1>trouvailler</h1>
+            <Image
+            src={toggleMenu ? menuIcon : crossIcon}
+            alt="menu icon"
+            className="menu-icon"
+            onClick={handleMenuClick}
+            />
             <ul className="ul-nav">
                 <li>
                     <a id="nav-signup" className={activeLink === 'section-landing' ? 'active' : ''} href="#section-landing">Sign Up</a>

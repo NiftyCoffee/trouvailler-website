@@ -50,3 +50,24 @@
     font-size: 1.3rem;
     color: var(--text-dark);
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+    #section-abouttheteam {
+        height: fit-content;
+        padding: 4rem 0;
+    }
+
+    .h2-abouttheteam {
+        font-size: 2rem;
+    }
+
+    .ul-abouttheteam {
+        flex-direction: column;
+    }
+    
+    .li-abouttheteam {
+        margin: 1rem 0;
+    }
+}
