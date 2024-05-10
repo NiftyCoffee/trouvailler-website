@@ -25,7 +25,7 @@ export default function Navbar() {
     // }, []);
 
    const [activeLink, setActiveLink] = useState('');
-   const [toggleMenu, setToggleMenu] = useState(false);
+   const [toggleMenu, setToggleMenu] = useState(true);
 
    useEffect(() => {
     const handleScroll = () => {
@@ -77,7 +77,7 @@ export default function Navbar() {
             className="menu-icon"
             onClick={handleMenuClick}
             />
-            <ul className="ul-nav">
+            <ul className="ul-nav hidden">
                 <li>
                     <a id="nav-signup" className={activeLink === 'section-landing' ? 'active' : ''} href="#section-landing">Sign Up</a>
                 </li>
