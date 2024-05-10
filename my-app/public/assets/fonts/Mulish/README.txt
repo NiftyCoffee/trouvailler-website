@@ -1,27 +1,34 @@
-Inter Variable Font
-===================
+Mulish Variable Font
+====================
 
-This download contains Inter as both a variable font and static fonts.
+This download contains Mulish as both variable fonts and static fonts.
 
-Inter is a variable font with these axes:
-  slnt
+Mulish is a variable font with this axis:
   wght
 
-This means all the styles are contained in a single file:
-  Inter/Inter-VariableFont_slnt,wght.ttf
+This means all the styles are contained in these files:
+  Mulish-VariableFont_wght.ttf
+  Mulish-Italic-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Inter:
-  Inter/static/Inter-Thin.ttf
-  Inter/static/Inter-ExtraLight.ttf
-  Inter/static/Inter-Light.ttf
-  Inter/static/Inter-Regular.ttf
-  Inter/static/Inter-Medium.ttf
-  Inter/static/Inter-SemiBold.ttf
-  Inter/static/Inter-Bold.ttf
-  Inter/static/Inter-ExtraBold.ttf
-  Inter/static/Inter-Black.ttf
+in those cases you can use the static font files for Mulish:
+  static/Mulish-ExtraLight.ttf
+  static/Mulish-Light.ttf
+  static/Mulish-Regular.ttf
+  static/Mulish-Medium.ttf
+  static/Mulish-SemiBold.ttf
+  static/Mulish-Bold.ttf
+  static/Mulish-ExtraBold.ttf
+  static/Mulish-Black.ttf
+  static/Mulish-ExtraLightItalic.ttf
+  static/Mulish-LightItalic.ttf
+  static/Mulish-Italic.ttf
+  static/Mulish-MediumItalic.ttf
+  static/Mulish-SemiBoldItalic.ttf
+  static/Mulish-BoldItalic.ttf
+  static/Mulish-ExtraBoldItalic.ttf
+  static/Mulish-BlackItalic.ttf
 
 Get started
 -----------

@@ -6,7 +6,7 @@ import clockIcon from '../../../public/assets/icons/clock.svg';
 
 export default function WhatWeDo() {
     return (
-        <section id="section-whatwedo">
+        <section id="section-whatwedo" className="section">
             <div className="div-whatwedo-container">
                 <div className="div-whatwedo-text">
                     <h2 className="h2-whatwedo">No two trips are the same — You&apos;re unique.<br/><span className="span-whatwedo-tagline">Your trips should be too.</span></h2>

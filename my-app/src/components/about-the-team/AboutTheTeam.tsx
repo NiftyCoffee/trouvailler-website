@@ -6,7 +6,7 @@ import helenPic from '../../../public/assets/images/helen.png';
 
 export default function AboutTheTeam() {
     return (
-        <section id="section-abouttheteam">
+        <section id="section-abouttheteam" className="section">
             <div className="div-abouttheteam-container">
                 <h2 className="h2-abouttheteam">Meet The Team</h2>
                 <p className="p-abouttheteam">We are a group of students in the Fastrack Program at Monash University Australia looking to make trips more fulfilling and planning easier.</p>

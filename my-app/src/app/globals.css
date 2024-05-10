@@ -11,24 +11,11 @@
 body {
   /* background-color: #e3ebe3; */
   background-color: #f1f1f1;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-size: 1rem;
 }
 
 /* Fonts */
-@font-face {
-  font-family: 'Inter-Regular';
-  src: url('../../public/assets/fonts/Inter/Inter-VariableFont_slnt,wght.ttf')format('truetype');
-  font-weight: normal;
-  font-size: normal;
-}
-
-@font-face {
-  font-family: 'Inter-Bold';
-  src: url('../../public/assets/fonts/Inter/Inter-VariableFont_slnt,wght.ttf')format('truetype');
-  font-weight: 700;
-  font-size: normal;
-}
 
 @font-face {
   font-family: 'Shrikhand';
@@ -36,10 +23,39 @@ body {
 }
 
 @font-face {
-  font-family: 'Orlega One';
-  src: url('../../public/assets/fonts/Orelega_One/OrelegaOne-Regular.ttf')format('truetype');
-  font-weight: normal;
-  font-size: normal;
+  font-family: 'Mulish';
+  src: url('../../public/assets/fonts/Mulish/static/Mulish-Regular.ttf')format('truetype');
+}
+
+@font-face {
+  font-family: 'Mulish-Bold';
+  src: url('../../public/assets/fonts/Mulish/static/Mulish-Bold.ttf')format('truetype');
+}
+
+@font-face {
+  font-family: 'Mulish-ExtraBold';
+  src: url('../../public/assets/fonts/Mulish/static/Mulish-ExtraBold.ttf')format('truetype');
+}
+
+@font-face {
+  font-family: 'Prompt';
+  src: url('../../public/assets/fonts/Prompt/Prompt-Regular.ttf')format('truetype');
+}
+
+@font-face {
+  font-family: 'Prompt-Bold';
+  src: url('../../public/assets/fonts/Prompt/Prompt-Bold.ttf')format('truetype');
+}
+
+:root {
+  --primary-color: #dd6e1d;
+  /* --secondary-color: #ffd992; */
+  --secondary-color: #ffc743;
+  --light-color: #ffd992;
+  --background-main: #fff;
+  --neutral-color: #f1f1f1;
+  --text-dark: #1f1d29;
+  --text-article: #1b1b1b;
 }
 
 /* :root {

@@ -1,6 +1,7 @@
 #section-abouttheteam {
     height: 100vh;
-    background-color: #f6e8da;
+    background-color: var(--light-color);
+    font-family: 'Mulish', sans-serif;
 }
 
 .div-abouttheteam-container {
@@ -16,7 +17,7 @@
     font-family: 'Shrikhand';
     font-size: 2.5rem;
     margin: 1rem 0;
-    color: #25284a;
+    color: var(--text-dark);
 }
 
 .p-abouttheteam {
@@ -44,7 +45,8 @@
 }
 
 .li-abouttheteam h3 {
-    font-weight: 700;
+    font-family: 'Mulish-ExtraBold', sans-serif;
+    font-weight: 800;
     font-size: 1.3rem;
-    color: #25284a;
+    color: var(--text-dark);
 }

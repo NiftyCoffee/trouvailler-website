@@ -4,7 +4,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f6e8da;
+    background-color: var(--neutral-color);
+    font-family: 'Mulish', sans-serif;
 }
 
 .div-contactus-card {
@@ -28,12 +29,14 @@
 .h2-contactus {
     font-family: 'Shrikhand';
     font-size: 2.5rem;
-    color: #25284a;
+    color: var(--text-dark);
 }
 
 .btn-contactus-email {
-    border: 1px solid #25284a;
-    background-color: #25284a;
+    font-family: 'Mulish-ExtraBold', sans-serif;
+    font-weight: 800;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--secondary-color);
     color: #fff;
     margin: 3rem 0;
     font-size: 1.3rem;
@@ -41,7 +44,7 @@
 
 .btn-contactus-email:hover {
     background-color: inherit;
-    color: #25284a;
+    color: var(--secondary-color);
 }
 
 .p-contactus-subtitle {
@@ -53,7 +56,8 @@
 }
 
 .span-contactus-instagram {
-    color: #dd6e1d;
+    font-style: italic;
+    color: var(--secondary-color);
     text-decoration: underline;
     font-weight: 700;
 }

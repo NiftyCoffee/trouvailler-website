@@ -1,6 +1,6 @@
 #section-whatwedo {
     height: 100vh;
-    background-color: #f1f1f1;
+    background-color: var(--neutral-color);
 }
 
 .div-whatwedo-container {
@@ -17,16 +17,20 @@
 }
 
 .h2-whatwedo {
-    font-family: 'Shrikhand';
+    font-family: 'Mulish-ExtraBold', sans-serif;
+    font-weight: 800;
     font-size: 2rem;
-    color: #25284a;
+    color: var(--text-dark);
 }
 
 .span-whatwedo-tagline {
-    color: #dd6e1d;
+    color: var(--primary-color);
+    font-style: italic;
+    /* font-family: 'Shrikhand'; */
 }
 
 .p-whatwedo-subtitle {
+    font-family: 'Mulish', sans-serif;
     margin: 1rem 0;
 }
 
@@ -50,8 +54,12 @@
 }
 
 .li-whatwedo h3 {
-    font-family: 'Inter-Bold', sans-serif;
+    font-family: 'Mulish-ExtraBold', sans-serif;
     font-size: 1.2rem;
     margin: 1rem 0;
-    color: #629861;
+    color: var(--text-dark);
+}
+
+.li-whatwedo p {
+    font-family: 'Mulish', sans-serif;
 }
