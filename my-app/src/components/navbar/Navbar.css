@@ -79,6 +79,10 @@ h1 {
         padding-top: 3.5rem;
     }
 
+    .ul-nav li {
+        margin: 1rem 0;
+    }
+
     .menu-icon {
         display:block;
         z-index: 1;
