@@ -70,7 +70,7 @@ export default function Navbar() {
     return (
         // <nav id="navbar" className={isSticky ? "sticky" : ""}>
         <nav id="navbar">
-            <h1>trouvailler</h1>
+            <h1><a href="#section-landing">trouvailler</a></h1>
             <Image
             src={toggleMenu ? menuIcon : crossIcon}
             alt="menu icon"
