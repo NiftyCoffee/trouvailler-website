@@ -27,7 +27,8 @@ export default function Navbar() {
     const handleScroll = () => {
       const sections = document.querySelectorAll('.section');
       sections.forEach((section) => {
-        const sectionTop = section.offsetTop;
+        const currSection = section as HTMLElement;
+        const sectionTop = currSection.offsetTop;
         const sectionHeight = section.clientHeight;
         if (window.scrollY >= sectionTop - sectionHeight * 0.25 && window.scrollY < sectionTop + sectionHeight - sectionHeight * 0.25) {
             setActiveLink(section.id);
