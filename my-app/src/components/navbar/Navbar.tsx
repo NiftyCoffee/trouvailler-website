@@ -64,7 +64,10 @@ export default function Navbar() {
                     <a id="nav-whatwedo" className={activeLink === 'section-whatwedo' ? 'active' : ''} href="#section-whatwedo">What We Do</a>
                 </li>
                 <li>
-                    <a id="nav-abouttheteam" className={activeLink === 'section-abouttheteam' ? 'active' : ''} href="#section-abouttheteam">About The Team</a>
+                    <a id="nav-howitworks" className={activeLink === 'section-howitworks' ? 'active' : ''} href="#section-howitworks">How It Works</a>
+                </li>
+                <li>
+                    <a id="nav-abouttheteam" className={activeLink === 'section-abouttheteam' ? 'active' : ''} href="#section-abouttheteam">Our Team</a>
                 </li>
                 <li>
                     <a id="nav-contactus" className={activeLink === 'section-contactus' ? 'active' : ''} href="#section-contactus">Contact Us</a>

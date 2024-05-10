@@ -4,14 +4,17 @@ import WhatWeDo from "@/components/what-we-do/WhatWeDo";
 import AboutTheTeam from "@/components/about-the-team/AboutTheTeam";
 import ContactUs from "@/components/contact-us/ContactUs";
 import Footer from "@/components/footer/Footer";
+import HowItWorks from "@/components/how-it-works/HowItWorks";
 
 export default function Home() {
   return (
     <div className="wrapper">
       <Landing />
       <WhatWeDo />
+      <HowItWorks />
       <AboutTheTeam />
       <ContactUs />
+      {/* <Footer /> */}
     </div>
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
     //   <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
