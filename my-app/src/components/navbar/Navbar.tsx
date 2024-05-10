@@ -79,7 +79,7 @@ export default function Navbar() {
             />
             <ul className="ul-nav hidden">
                 <li>
-                    <a id="nav-signup" className={activeLink === 'section-landing' ? 'active' : ''} href="#section-landing">Sign Up</a>
+                    <a id="nav-signup" className={activeLink === 'section-landing' ? 'active' : ''} href="#section-landing">Get Started</a>
                 </li>
                 <li>
                     <a id="nav-whatwedo" className={activeLink === 'section-whatwedo' ? 'active' : ''} href="#section-whatwedo">What We Do</a>
